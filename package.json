@@ -1,6 +1,6 @@
 {
   "name": "zeeka",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Secure global file sharing using local tunnels. Currently tunneling through localtunnel's public servers. Zeeka dedicated servers coming soon.",
   "main": "index.js",
   "scripts": {
