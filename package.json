@@ -1,0 +1,31 @@
+{
+  "name": "zeeka",
+  "version": "0.4.5",
+  "description": "Secure global file sharing using local tunnels. Currently tunneling through localtunnel's public servers. Zeeka dedicated servers coming soon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zeeka": "node file-explorer/app.js"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "zeeka": "./file-explorer/app.js"
+  },
+  "dependencies": {
+    "conf": "^6.1.0",
+    "enquirer": "^2.3.2",
+    "express": "^4.15.2",
+    "express-basic-auth": "^1.2.0",
+    "fs-extra": "^7.0.1",
+    "localtunnel": "^2.0.0",
+    "multer": "^1.3.0",
+    "mv": "^2.1.1",
+    "path-posix": "^1.0.0",
+    "rich-filemanager-node": "^0.1.5"
+  },
+  "devDependencies": {
+    "opn": "^5.4.0",
+    "rich-filemanager": "^2.7.6"
+  },
+  "license": "MIT"
+}
