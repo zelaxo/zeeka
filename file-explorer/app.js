@@ -12,7 +12,7 @@ const {cli} = require('./cli');
 var app = express();
 
 //Listen for requests
-const port = 5000;
+const port = 6000;
 
 cli(() => {
 
