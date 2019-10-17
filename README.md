@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="zeeka-invoke.gif">
+  <img src="https://raw.githubusercontent.com/zaygozi/zeeka/master/zeeka-invoke.png">
 </p>
 
 ## Installation
