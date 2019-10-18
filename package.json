@@ -1,6 +1,6 @@
 {
   "name": "zeeka",
-  "version": "0.4.9",
+  "version": "0.5.0",
   "description": "Secure global file sharing using local tunnels. Currently tunneling through localtunnel's public servers. Zeeka dedicated servers coming soon.",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,8 @@
     "mv": "^2.1.1",
     "path-posix": "^1.0.0",
     "rich-filemanager-node": "^0.1.5",
-    "opn": "^5.4.0"
-  },
-  "devDependencies": {
-    "rich-filemanager": "^2.7.6"
+    "opn": "^5.4.0",
+    "zeeka-filemanager": "0.1.0"
   },
   "license": "MIT"
 }

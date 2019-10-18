@@ -30,7 +30,7 @@ cli(() => {
 	}
 	app.use(basicAuth({ authorizer: myAuthorizer, challenge:true }));
 	//  static files from rich-filemanager module.
-	app.use(express.static('node_modules/rich-filemanager'));
+	app.use(express.static('node_modules/zeeka-filemanager'));
 	// Static files from the demo public folder
 	app.use(express.static(__dirname + '/public'));
 	//Filemanager route
