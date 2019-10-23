@@ -6,13 +6,24 @@ const localtunnel = require('localtunnel');
 const filemanager = require('rich-filemanager-node');
 const conf = __dirname + "/public/config/filemanager.config.json";
 const fs = require('fs');
+const os = require('os');
+const path = require('path');
+
+let PATH = null;
+if(os.platform() === 'linux' || 'darwin') {
+	PATH = '/usr/local/lib/node_modules';
+}
+else {
+	let username = os.userInfo().username;
+	PATH = path.join('C:', 'Users', username, 'AppData', 'Roaming', 'npm', 'node_modules');
+}
 
 const {cli} = require('./cli');
 
 var app = express();
 
 //Listen for requests
-const port = 6000;
+const port = 5000;
 
 cli(() => {
 
@@ -21,17 +32,17 @@ cli(() => {
 	}
 
 	//----------------Middlewares------------------------
-	// Authentication
+	//Authentication
 	function myAuthorizer(username, password) {
 		const userMatches = basicAuth.safeCompare(username, config.get('username'));
 		const passwordMatches = basicAuth.safeCompare(password, config.get('password'));
 
 		return userMatches & passwordMatches
 	}
-	app.use(basicAuth({ authorizer: myAuthorizer, challenge:true }));
-	//  static files from rich-filemanager module.
-	app.use(express.static('node_modules/zeeka-filemanager'));
-	// Static files from the demo public folder
+	app.use(basicAuth({ authorizer: myAuthorizer, challenge: true }));
+	//static files from zeeka-filemanager module
+	app.use(express.static(path.join(PATH, 'zeeka', 'node_modules', 'zeeka-filemanager')));
+	// Static files from the file-explorer public folder
 	app.use(express.static(__dirname + '/public'));
 	//Filemanager route
 	app.use('/filemanager', filemanager(config.get('folder'), conf));
