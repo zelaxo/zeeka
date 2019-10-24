@@ -9,7 +9,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 
-let PATH = null;
+let PATH = '/usr/local/lib/node_modules';
 if(os.platform() === 'linux' || 'darwin') {
 	PATH = '/usr/local/lib/node_modules';
 }
