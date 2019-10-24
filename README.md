@@ -10,7 +10,7 @@ npm install -g zeeka
 <br>
 
 ## Credits
-##### Zeeka uses a fork of RichFileManager for its web frontend (https://github.com/servocoder/RichFileManager). As a credit the frontend is titled Rich FileManager.
+##### Zeeka uses a fork of RichFileManager for its web frontend (https://github.com/servocoder/RichFileManager).
 ##### Zeeka is currently using localtunnel public servers in its beta phase.
 
 <br>
