@@ -16,6 +16,8 @@ npm install -g zeeka
 #### A zeeka link will be generated on pressing Enter and a local web server will start on port 5000.
 #### Share this link and the credentials with your friends & start sharing &#x1F34E;
 
+<br>
+
 ## Credits
 #### Zeeka uses ZeekaFileManager (https://github.com/zaygozi/ZeekaFileManager) which is a fork of RichFileManager (https://github.com/servocoder/RichFileManager) for its web frontend.
 #### Zeeka is currently using localtunnel public servers in its beta phase.
