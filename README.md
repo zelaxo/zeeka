@@ -9,8 +9,11 @@ npm install -g zeeka
 
 <br>
 
+## Usage
+##### The gif posted above is self explanatory. Just choose a directory/folder to share, set a username and password & mention any subdomain to connect your filesystem to the internet. If the subdomain is available, it will be assigned, else an auto generated subdomain will be assigned. A zeeka link will be generated on pressing Enter and a local web server will start on port 5000. Share this link and the credentials with your friends & start sharing!
+
 ## Credits
-##### Zeeka uses a fork of RichFileManager for its web frontend (https://github.com/servocoder/RichFileManager).
+##### Zeeka uses ZeekaFileManager (https://github.com/zaygozi/ZeekaFileManager) which is a fork of RichFileManager for its web frontend (https://github.com/servocoder/RichFileManager).
 ##### Zeeka is currently using localtunnel public servers in its beta phase.
 
 <br>

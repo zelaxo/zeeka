@@ -1,6 +1,6 @@
 {
   "name": "zeeka",
-  "version": "0.8.0",
+  "version": "0.8.5",
   "description": "Secure global file sharing using local tunnels. Currently tunneling through localtunnel's public servers. Zeeka dedicated servers coming soon.",
   "repository": {
     "type": "git",
@@ -9,11 +9,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zeeka": "node file-explorer/app.js"
+    "zeeka": "node main/app.js"
   },
   "preferGlobal": true,
   "bin": {
-    "zeeka": "./file-explorer/app.js"
+    "zeeka": "./main/app.js"
   },
   "dependencies": {
     "conf": "^6.1.0",
