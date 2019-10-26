@@ -18,7 +18,7 @@ npm install -g zeeka
 
 <br>
 
-## Difference between Zeeka and Cloud sharing
+## Zeeka Vs Cloud Sharing
 #### Normally if you want to share files with someone remotely, you have to upload them to third party servers or cloud storage services. You then provide a link to people who wish to access your files.
 #### Zeeka works differently! Zeeka connects a directory in your filesystem to the internet. You set your own credentials, so you have full control on who can access that directory. People having access can upload, download, create or modify files in that directory from anywhere in the world.
 #### This eliminates the overhead of uploading files to third party servers and then trusting them with your data.
@@ -43,4 +43,4 @@ npm install -g zeeka
 ## Warning
 #### Currently working on Linux & Mac OS
 #### Dont expect high performance or strong connectivity in the beta phase as requests are routed through public servers managed by localtunnel
-#### Currently Under Development
+#### Work in progress
