@@ -40,11 +40,7 @@ npm install -g zeeka
 <br>
 
 ## How Can I Contribute?
-#### Contributions are always welcome as I am a normal college student who created this tool to share files with his friends.
-#### Currently I am looking for people who can contribute in setting up Zeeka dedicated servers, so that we can unleash the full potential of Zeeka.
-#### I dont know how I'll fund these dedicated servers for a long time, but hey someone needs to do it, for the future of secure file sharing.
-#### Long term goal is to incorporate Zeeka as a native tool in all linux distros. Everyone needs to have access to free and secure file sharing.
-#### If you are interested in joining the cause, do write in the Issues section.
+#### Refer the Issues section
 
 <br>
 
